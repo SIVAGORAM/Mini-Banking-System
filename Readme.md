@@ -1,1 +1,1 @@
-
+Developed an ATM Simulation System in Python, implementing user authentication, balance management, and transaction processing for withdrawals and deposits. Utilized object-oriented programming principles to design secure and user-friendly functionalities. Ensured robust input validation and error handling throughout the application. Demonstrated proficiency in creating real-world system simulations through software development.
