@@ -47,18 +47,25 @@ ATM Class:
 Manages the user interface and interactions.
 Prompts users for their PIN and handles the main menu for transactions.
 Executes user choices for withdrawing, depositing, viewing mini statements, and changing PINs.
+
 Example Workflow:
 User enters their PIN.
+
 If the PIN is correct, the user is prompted with a menu:
 Withdraw: The user enters an amount and, if sufficient funds are available, the amount is withdrawn.
+
 Deposit: The user enters an amount, which is added to the account balance.
+
 Mini Statement: The last five transactions are displayed.
+
 Change PIN: The user can change their PIN to a new one.
 If the PIN is incorrect, the attempt is recorded. After three incorrect attempts, the account is locked for 1 minute.
+
 Benefits:
 Provides a secure and straightforward interface for ATM transactions.
 Ensures user accounts are protected against unauthorized access with PIN verification and account lock features.
 Maintains a history of recent transactions for user reference.
+
 Future Enhancements:
 Integrate with a real bank database for dynamic account management.
 Implement a graphical user interface (GUI) for a more user-friendly experience.
